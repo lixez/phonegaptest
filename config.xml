@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.ar.interatech.phonegaptest"
+		versionCode="1.0.0"
+		version   = "1.0.0">
+		<name>phonegaptest1.4.5</name>
+		<description>
+		</description>
+		<author href="www.interatech.com.ar" email="gabriel@interatech.com.ar">
+Gabriel Suarez
+		</author>
+		<preference name="phonegap-version" value="3.6.3" />
+		
+		<gap:platform name="android" />
+	</widget>
