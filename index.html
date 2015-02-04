@@ -18,7 +18,12 @@
 
     function onDeviceReady() {
         
-	navigator.notification.alert("Bienvenido");
+	navigator.notification.alert(
+    'Bienvenido a VIVMo',  // message
+    alertDismissed,         // callback
+    'Viveros Moebius-it',            // title
+    'Continuar'                  // buttonName
+);
 }
 
    
